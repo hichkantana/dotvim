@@ -31,6 +31,7 @@ Plugin 'nvie/vim-flake8'
 Plugin 'klen/python-mode'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'Lokaltog/powerline', {'rtp' : 'powerline/bindings/vim/'}
+Plugin 'davidhalter/jedi-vim'
 "
 
 " " Add all your plugins here (note older versions of Vundle used Bundle
@@ -91,7 +92,7 @@ let python_highlight_all=1
  " modes)
  " " ]M            Jump on next class or method (normal, visual, operator
  " modes)
-  let g:pymode_rope = 1
+  let g:pymode_rope = 0
  "
  " " Documentation
   let g:pymode_doc = 1
